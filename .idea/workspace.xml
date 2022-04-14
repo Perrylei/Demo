@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db0df2f4-3159-4c35-bf1e-b7f284070080" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/example/sysio/demo/MultiplexingSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/example/sysio/demo/MultiplexingThreadSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/example/sysio/demo/SocketMultiplexingThreads.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/BIOSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/BIOSocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/NIOSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/NIOSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/MultiplexingSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/MultiplexingSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sysio/target/classes/com/example/sysio/demo/MultiplexingSocketV.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,22 +63,9 @@
       <recent name="com.example.sysio.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiplexingSocketV">
+  <component name="RunManager" selected="Application.SocketMultiplexingThreads">
     <configuration name="BIOSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.sysio.demo.BIOSocket" />
-      <module name="sysio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.sysio.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.sysio.demo.IOSocket" />
       <module name="sysio" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SocketMultiplexingThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.sysio.demo.SocketMultiplexingThreads" />
+      <module name="sysio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sysio.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocketMultiplexingThreads" />
         <item itemvalue="Application.MultiplexingSocketV" />
         <item itemvalue="Application.MultiplexingSocket" />
         <item itemvalue="Application.NIOSocketThreads" />
         <item itemvalue="Application.BIOSocket" />
-        <item itemvalue="Application.IOSocket" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649835569892</updated>
-      <workItem from="1649835571401" duration="14887000" />
+      <workItem from="1649835571401" duration="19541000" />
     </task>
     <servers />
   </component>
