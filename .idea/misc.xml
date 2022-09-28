@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sysio/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq/pom.xml" />
       </list>
     </option>
   </component>
